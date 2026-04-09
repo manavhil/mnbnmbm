@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbie's Royal Chess Adventure</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="ui-layer">
+        <div id="header">
+            <h1>Barbie's Chess Dreamhouse</h1>
+            <div id="turn-indicator">Pink's Turn</div>
+        </div>
+        <div id="game-over" class="hidden">
+            <div id="winner-text">Pink Wins!</div>
+            <button onclick="location.reload()">Play Again</button>
+        </div>
+    </div>
+    <canvas id="gameCanvas"></canvas>
+    <script src="src/main.js"></script>
+</body>
+</html>
